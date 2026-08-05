@@ -266,6 +266,6 @@ application.properties        # Runtime configuration
 
 ## Disclaimer
 
-MyCustomAPI is an educational portfolio project. It was built to explore framework internals, not to compete with mature ecosystems. APIs and capabilities are simplified on purpose so the control flow stays understandable.
+Java Custom API is an educational portfolio project. It was built to explore framework internals, not to compete with mature ecosystems. APIs and capabilities are simplified on purpose so the control flow stays understandable.
 
 If you are studying how Spring-style frameworks bootstrap applications, feel free to explore the `factory`, `registers`, and `handlers` packages — that is where most of the learning lives.
