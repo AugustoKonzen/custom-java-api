@@ -1,8 +1,8 @@
-# Java Custom API
+# Custom Java API
 
 A lightweight, Spring-inspired Java framework built from scratch as a learning project.
 
-**Java Custom API** is not a wrapper around Spring. It is a custom abstraction that recreates core framework ideas — annotation-driven configuration, classpath scanning, dependency injection, REST controllers, and declarative HTTP clients — using reflection, dynamic proxies, and Apache HttpComponents.
+**Custom Java API** is not a wrapper around Spring. It is a custom abstraction that recreates core framework ideas — annotation-driven configuration, classpath scanning, dependency injection, REST controllers, and declarative HTTP clients — using reflection, dynamic proxies, and Apache HttpComponents.
 
 The goal was to understand *how* frameworks like Spring Boot and OpenFeign work under the hood by implementing a simplified version of those concepts myself.
 
@@ -176,7 +176,7 @@ mvn clean package
 ### Run
 
 ```bash
-java -jar target/MyCustomAPI-1.0-SNAPSHOT.jar
+java -jar target/custom-java-api.jar
 ```
 
 The server starts on port **8080** with context path `/api` (configurable via `application.properties`).
@@ -266,6 +266,6 @@ application.properties        # Runtime configuration
 
 ## Disclaimer
 
-Java Custom API is an educational portfolio project. It was built to explore framework internals, not to compete with mature ecosystems. APIs and capabilities are simplified on purpose so the control flow stays understandable.
+Custom Java API is an educational portfolio project. It was built to explore framework internals, not to compete with mature ecosystems. APIs and capabilities are simplified on purpose so the control flow stays understandable.
 
 If you are studying how Spring-style frameworks bootstrap applications, feel free to explore the `factory`, `registers`, and `handlers` packages — that is where most of the learning lives.
