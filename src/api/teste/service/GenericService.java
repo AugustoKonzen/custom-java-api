@@ -29,7 +29,7 @@ public class GenericService {
                 .build();
     }
 
-    public UserResponse findByEmailAndNome(String name, String lastName, String email) {
+    public UserResponse findByEmailAndName(String name, String lastName, String email) {
         return UserResponse.builder()
                 .id(UUID.randomUUID().toString())
                 .name(name)

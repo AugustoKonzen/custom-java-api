@@ -25,7 +25,7 @@ public class GenericController {
     public UserResponse searchByEmail(@RequestParam(name = "name") String name,
                                       @RequestParam(name = "lastName") String lastName,
                                       @RequestParam(name = "email") String email) {
-        return service.findByEmailAndNome(name, lastName, email);
+        return service.findByEmailAndName(name, lastName, email);
     }
 
     @GetMapping(value = "/reqres")
